@@ -9,6 +9,7 @@ public class Movimentao {
 	private String cnpjCpf;
 	private Boolean estornada;
 	private TipoMovimentacao tipo;
+	
 	public LocalDate getData() {
 		return data;
 	}
