@@ -3,7 +3,7 @@ package com.mjv.openbanking;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
-public class Movimentao {
+public class Movimentacao {
 	private LocalDate data;
 	private BigDecimal valor;
 	private String cnpjCpf;
