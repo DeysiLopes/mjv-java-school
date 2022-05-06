@@ -7,9 +7,9 @@ public class FormatadorUtil {
 		String part2 = cpf.substring(3, 6);
 		String part3 = cpf.substring(6, 9);
 		String part4 = cpf.substring(9, 11);
-		String cpfFortmatado = String.format("%s.%s.%s-%s", part1, part2, part3, part4);
+		String cpfFortmatador = String.format("%s.%s.%s-%s", part1, part2, part3, part4);
 		
-		return cpfFortmatado;
+		return cpfFortmatador;
 	}
 	
 }
